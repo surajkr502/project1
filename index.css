@@ -8,7 +8,7 @@ html,body{
     height: 100%;
     width: 100%;
 }
-.main{
+.firstpage{
     height: 100vh;
     width: 100vw;
     background-color: darkorange;
@@ -24,8 +24,12 @@ html,body{
     padding-right: 70px;
     padding-left: 30px;
     margin-left: 140px;
+    margin-top: 30px;
     border-radius: 50px;
     width: 80%;
+    /* position: sticky; */
+    /* backdrop-filter: blur(45px); */
+    position: fixed;
     
 
     /* border: solid 2px black; */
@@ -51,4 +55,19 @@ html,body{
 #navbar nav ul li a:hover{
     color: aqua;
     
+}
+#body{
+    font-style:normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top:20%;
+    
+}
+#button{
+    /* border: solid 1px rgb(69, 65, 65); */
+    border-radius: 50px;
+    background-color: blue;
+    height: 40px;
+    width: 110px;
 }
