@@ -50,10 +50,15 @@ html,body{
     color: black;
     /* text-transform: uppercase; */
         text-decoration: none;
+        /* transition: font-size 2s ease; */
+                transition: all 2s ease;
+
+        
 
 }
 #navbar nav ul li a:hover{
     color: aqua;
+    font-size: 30px;
     
 }
 #body{
@@ -64,10 +69,108 @@ html,body{
     padding-top:20%;
     
 }
-#button{
+/* #hover{ */
     /* border: solid 1px rgb(69, 65, 65); */
-    border-radius: 50px;
-    background-color: blue;
+    /* border-radius: 50px; */
+    /* background-color: rgb(130, 245, 151); */
+    /* height: 40px;
+    width: 240px;
+    background: transparent;
+    display: flex;
+    color: white; */
+
+
+/* } */
+#hover{
+    
+    display: flex;
+   
+     
+
+}
+
+#body img{
+    margin-top: -111px;
+}
+#hover1{
+    /* border: solid 2px red; */
+    border-bottom: red;
+    border-radius: 15px;
+    background: transparent;
+    width: 120px;
     height: 40px;
-    width: 110px;
+    color: white;
+    /* margin-left: 40px; */
+    margin-top: 40px;
+    
+    
+}
+#hover2{
+    /* border: solid 2px red; */
+    border-bottom: white;
+    border-radius: 15px;
+    background: transparent;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+   
+    
+}
+#hover1:hover{
+    background-color:rgb(214, 120, 200);
+}
+#hover2:hover{
+    background-color: rgb(74, 143, 143);
+}
+.secondpage{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.secondpage h1{
+    
+    padding-top: 200px;
+    padding-left: 500px;
+    color: white;
+    font-size: 30px;
+}
+#line{
+  width: 100px;
+  border: solid 2px rgb(78, 54, 218);
+  /* background-color: #d44f4f; */
+  /* border-color: blue ; */
+  /* height: 0px; */
+  /* display: inline-block; */
+  /* padding-top: 100px; */
+  /* margin-top: 100px; */
+  border-radius: 50%;
+  position: absolute;
+  left: 45%;
+  top: 110%;
+  
+}
+    
+
+
+#color{
+    color: rgb(91, 91, 224);
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    /* also- right,spacebetween,by defoult left,space-evenly */
+    gap: 10px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-left: 50px;
+    border: solid 2px white;
+
+}
+@media(max-width:430px)
+{
+    #navbar{
+    background-color: brown;
+}
 }
