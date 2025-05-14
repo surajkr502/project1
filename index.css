@@ -174,3 +174,31 @@ html,body{
     background-color: brown;
 }
 }
+@media(max-width:430px)
+{
+    #bars{
+        display: block;
+        position: absolute;
+        top: 40px;
+        font-size: 40px;
+
+    }
+    #navbar{
+    background-color: brown;
+}
+#navbar nav ul{
+    display: none;
+}
+
+}
+#check:checked~ #navbar nav ul{
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    background-color: aqua;
+}
+#bars{
+
+}
