@@ -627,5 +627,45 @@ background-color: rgb(39, 39, 39);
 #fourthpage{
     height: 100vh;
     width: 100%;
-    background-color:rgb(28, 167, 198);
+    background-color:rgb(150, 81, 247);
+}
+.line3{
+    border: solid 1px white;
+    width: 6%;
+     position: absolute;
+     margin-top:9%;
+     margin-left: 8%;
+}
+.hover3{
+    /* border: solid 2px rgb(225, 213, 236); */
+    width: 14%;
+    height: 8%;
+    border-radius: 20px;
+    border-bottom: 2px;
+    background-color: rgb(38, 38, 207);
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 10%;
+    font-size: medium;
+    /* font-display: white; */
+    color: white;
+}
+.hover3:hover{
+    background-color: white;
+    color:rgb(38, 38, 207) ;
+}
+#tag1{
+    color: white;
+    padding-top:10%;
+    padding-left: 7%;
+    font-size: large;
+}
+.line4{
+    border: solid 2px white;
+   width: 11%;
+    position: absolute;
+    margin-top: 13.5%;
+    margin-left: 79.5%;
+
+
 }
