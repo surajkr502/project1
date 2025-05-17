@@ -609,8 +609,11 @@ background-color: rgb(39, 39, 39);
 
 
     /* background-color: red; */
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 30px;
 
+}
+.box1pt img{
+    border-radius: 30px;
 }
 .box2pt{
     
@@ -623,8 +626,11 @@ background-color: rgb(39, 39, 39);
 
 
     /* background-color: red; */
-    border-radius: 0px 0px 30px 30px;
+    border-radius:30px;
 
+}
+.box2pt img{
+    border-radius: 30px;
 }
 .box3pt{
     
@@ -637,7 +643,10 @@ background-color: rgb(39, 39, 39);
 
 
     /* background-color: red; */
-    border-radius: 0px 0px 30px 30px;
+    border-radius:30px;
+}
+.box3pt img{
+    border-radius: 30px;
 }
 #fourthpage{
     height: 100vh;
@@ -1000,6 +1009,54 @@ margin-right: 10%;
     padding-top: 2%;
     
 }
+.social-icons {
+  display: flex;
+  gap: 20px; /* Adjust spacing between icons */
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li a {
+  display: inline-block;
+  width: 40px; /* Adjust icon size */
+  height: 40px; /* Adjust icon size */
+  border-radius: 50%; /* Make them circular */
+  background-color: #333; /* Default background color */
+  color: #fff; /* Default icon color */
+  font-size: 20px; /* Adjust icon font size */
+  line-height: 40px; /* Vertically center the icon */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Specific styles for different social media platforms */
+.social-icons li a.facebook {
+  background-color: #1877F2;
+}
+
+.social-icons li a.twitter {
+  background-color: #1DA1F2;
+}
+
+.social-icons li a.linkedin {
+  background-color: #0077B5;
+}
+
+.social-icons li a.instagram {
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+.social-icons li a.youtube {
+  background-color: #FF0000;
+}
+
+/* Hover effects */
+.social-icons li a:hover {
+  opacity: 0.8;
+}
 
 @media (max-width: 768px) {
 
@@ -1062,6 +1119,7 @@ margin-right: 10%;
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        /* border-radius: 15px; */
     }
 
     .box1pt, .box2pt, .box3pt {
@@ -1136,3 +1194,13 @@ margin-right: 10%;
         width: 80%;
         margin-left: 10%;
     }
+}
+
+
+
+
+
+
+
+
+
