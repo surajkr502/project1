@@ -108,11 +108,12 @@ body {
    height: 25%;
    width: 30%;
    border-radius: 20px;
+   transition: 1s;
 }
 #body img:hover{
     transform: scale(1.2);
     cursor: pointer;
-    transition: 1s;
+    
 }
 #body img{
 
